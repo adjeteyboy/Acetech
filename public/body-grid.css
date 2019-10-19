@@ -1,0 +1,17 @@
+.body-img-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (280px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 280px);
+  -ms-grid-rows: 180px;
+      grid-template-rows: 180px;
+  row-gap: 120px;
+  -webkit-column-gap: 130px;
+          column-gap: 130px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 120px;
+  margin-bottom: 260px;
+}
+/*# sourceMappingURL=body-grid.css.map */

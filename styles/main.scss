@@ -1,0 +1,21 @@
+@import '_normalize';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  padding: 0 70px;
+}
+@import 'header';
+@import 'body-text';
+@import 'body-grid';
+@import 'footer';
