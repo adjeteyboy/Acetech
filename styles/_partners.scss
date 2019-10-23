@@ -1,0 +1,27 @@
+.partners-pg__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  grid-template-rows: 280px;
+  column-gap: 130px;
+  row-gap: 130px;
+  justify-content: center;
+  margin: 130px 0;
+
+  & .partners-pg__grid--circle {
+    width: 280px;
+    height: 280px;
+    background: radial-gradient(50% 50% at 50% 91.41%, #EFF9FF 0%, rgba(79, 172, 254, 0.06) 100%);
+    border-radius: 50%;
+    position: relative;
+    
+    & .partners-pg__circle--center {
+      width: 280px;
+      height: auto;
+      transform: translateY(25%);
+    }
+    
+    & img {
+      width: 100%;
+    }
+  }
+}

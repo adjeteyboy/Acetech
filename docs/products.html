@@ -5,35 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" type="image/png" href="/logos/ace_favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="logos/ace_favicon.png" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
   <link rel="stylesheet" href="main.css">
-  <title>Acetech - Home</title>
+  <title>Acetech - Products</title>
 </head>
 
 <body>
   <header>
     <div class="wrapper">
       <div class="desktop-logo">
-        <a href="index.html"><img src="./logos/ace_Logo--blue.png" alt="Acetech logo"></a>
+        <a href="#"><img src="./logos/ace_Logo--blue.png" alt="Acetech logo"></a>
       </div>
-      <nav>
+      <div class="hamburger">
+        <i class="fas fa-2x fa-bars"></i>
+      </div>
+      <nav id="desktop-menu">
         <a href="#">Home</a>
         <a href="#">About</a>
-        <a class="active" href="#">Products</a>
-        <a href="#">Clients</a>
-        <a href="#">Partners</a>
+        <a class="active" href="products.html">Products</a>
+        <a href="clients.html">Clients</a>
+        <a href="partners.html">Partners</a>
         <a href="#">Support</a>
       </nav>
     </div>
   </header>
+  <nav id="mobile-menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a class="active" href="products.html">Products</a>
+    <a href="clients.html">Clients</a>
+    <a href="partners.html">Partners</a>
+    <a href="#">Support</a>
+  </nav>
   <div class="body-text">
-    <h1>We’ve got the <span class="underline">perfect</span> solution for your company.</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    <div class="wrapper">
+      <h1>We’ve got the <span class="underline">perfect</span> solution for your company.</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    </div>
   </div>
   <section class="body-img-grid">
     <div class="body-img-grid--item"><img src="./products/bolt.jpg" alt="bolt logo">
@@ -67,6 +78,7 @@
       <p class="footer__copyright">Copyrights &copy; 2019 All Rights Reserved by Ace Technologies Ghana Limited</p>
     </div>
   </footer>
+  <script src="index.js"></script>
 </body>
 
 </html>

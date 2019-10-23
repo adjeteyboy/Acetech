@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,uBAAuB;EAC9C,kBAAkB,EAAE,KAAK;EACzB,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,KAAK;EACjB,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,KAAK;CACrB",
+    "sources": [
+        "../styles/body-grid.scss"
+    ],
+    "names": [],
+    "file": "body-grid.css"
+}

@@ -13,9 +13,13 @@ body {
 }
 
 .wrapper {
-  padding: 0 70px;
+  padding: 0 15px;
+  @media (min-width: 600px) {padding: 0 30px;}
+  @media (min-width: 900px) {padding: 0 60px;}
 }
 @import 'header';
+@import 'hamburger';
 @import 'body-text';
 @import 'body-grid';
 @import 'footer';
+@import 'partners';
